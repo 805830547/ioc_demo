@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	
+	<bean id="room" class="com.howto.parseXML.model.Room">
+		<property name="person" ref="person" />
+	</bean>
+	
+	<bean id="person" class="com.howto.parseXML.model.Person">
+	</bean>
+	
+</beans>
